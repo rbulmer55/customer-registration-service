@@ -21,5 +21,6 @@ new RegistrationServiceStatelessStack(
   'RegistrationServiceStatelessStack',
   {
     customerTable: registrationStateful.customerTable,
+    registrationBucket: registrationStateful.identityVerificationBucket,
   },
 );
