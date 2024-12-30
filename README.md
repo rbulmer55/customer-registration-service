@@ -10,6 +10,10 @@ In this example we show how a customer can be added to rewards, validated by an 
 
 ![architecture of registration service](./docs/registrationService.png 'Registration service')
 
+## More detail
+
+More detail on this project can be found in my post here: [https://blog.architechinsights.com/onboarding-customers-via-multi-step-workflows-in-the-aws-cdk-bca1931e8da5](https://blog.architechinsights.com/onboarding-customers-via-multi-step-workflows-in-the-aws-cdk-bca1931e8da5)
+
 ### Useful commands
 
 This app is built using the AWS CDK.
