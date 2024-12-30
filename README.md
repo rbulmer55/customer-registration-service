@@ -1,14 +1,22 @@
-# Welcome to your CDK TypeScript project
+# Customer; Registration Service
 
-This is a blank project for CDK development with TypeScript.
+In this project we use direct integration between AWS services to orchestrate a new customer registration.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+By using Orchestration we can involve other services and teams into the customer on-boarding journey.
 
-## Useful commands
+In this example we show how a customer can be added to rewards, validated by an accounts department and saved to a customer database all through StepFunction Express Workflows.
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+## Architecture
+
+![architecture of registration service](./docs/registrationService.png 'Registration service')
+
+### Useful commands
+
+This app is built using the AWS CDK.
+
+- `npm run build` compile typescript to js
+- `npm run watch` watch for changes and compile
+- `npm run test` perform the jest unit tests
+- `npx cdk deploy` deploy this stack to your default AWS account/region
+- `npx cdk diff` compare deployed stack with current state
+- `npx cdk synth` emits the synthesized CloudFormation template
