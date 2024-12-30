@@ -102,7 +102,7 @@ export class RegistrationServiceStatelessStack extends cdk.Stack {
     });
 
     /**
-     * Create a rule to forward registrion events to our reward queue
+     * Create a rule to forward registration events to our reward queue
      * NOTE: Illustration only, should exist in the REWARDS service
      */
     new Rule(this, 'ForwardRegistrationEventsToSQS', {
