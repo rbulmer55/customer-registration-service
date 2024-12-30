@@ -14,7 +14,7 @@ In this example we show how a customer can be added to rewards, validated by an 
 
 More detail on this project can be found in my post here: [https://blog.architechinsights.com/onboarding-customers-via-multi-step-workflows-in-the-aws-cdk-bca1931e8da5](https://blog.architechinsights.com/onboarding-customers-via-multi-step-workflows-in-the-aws-cdk-bca1931e8da5)
 
-![architecture of registration service post](./docs/post_banner.webp 'Registration service post')
+[![architecture of registration service post](./docs/post_banner.webp 'Registration service post')](https://blog.architechinsights.com/onboarding-customers-via-multi-step-workflows-in-the-aws-cdk-bca1931e8da5)
 
 ### Useful commands
 
